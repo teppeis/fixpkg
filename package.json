@@ -6,6 +6,10 @@
     "npm",
     "package.json"
   ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/teppeis/fixpkg.git"
+  },
   "license": "MIT",
   "author": "Teppei Sato <teppeis@gmail.com>",
   "type": "module",
