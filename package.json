@@ -13,6 +13,9 @@
   "bin": {
     "fixpkg": "index.js"
   },
+  "files": [
+    "index.js"
+  ],
   "dependencies": {
     "@npmcli/package-json": "^6.1.0"
   },
