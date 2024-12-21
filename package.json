@@ -1,6 +1,6 @@
 {
   "name": "fixpkg",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "CLI to sort and fix your package.json with npm official logic",
   "keywords": [
     "npm",
