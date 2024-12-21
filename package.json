@@ -1,13 +1,22 @@
 {
   "name": "fixpkg",
   "version": "1.0.0",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [],
-  "author": "Teppei Sato <teppeis@gmail.com>",
+  "description": "Sort and fix package.json with npm Official Logic",
+  "keywords": [
+    "npm",
+    "package.json"
+  ],
   "license": "MIT",
+  "author": "Teppei Sato <teppeis@gmail.com>",
   "type": "module",
-  "description": ""
+  "main": "index.js",
+  "bin": {
+    "fixpkg": "index.js"
+  },
+  "dependencies": {
+    "@npmcli/package-json": "^6.1.0"
+  },
+  "devDependencies": {
+    "@types/node": "^18.19.68"
+  }
 }
