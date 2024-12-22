@@ -13,7 +13,7 @@ $ cd your-package-directory
 $ npx fixpkg
 ```
 
-This package just executes `fix` and `sort` of [`@npmcli/package-json`](https://github.com/npm/package-json).
+This package just executes `fix` and `sort` of [`@npmcli/package-json`](https://github.com/npm/package-json).  
 See https://github.com/npm/package-json/pull/133
 
 ## License
