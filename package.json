@@ -20,10 +20,16 @@
   "files": [
     "index.js"
   ],
+  "scripts": {
+    "test": "./index.js && git diff --exit-code"
+  },
   "dependencies": {
     "@npmcli/package-json": "^6.1.0"
   },
   "devDependencies": {
     "@types/node": "^18.19.68"
+  },
+  "engines": {
+    "node": ">=18.18"
   }
 }
